@@ -224,7 +224,7 @@
     ```
     responses:
       utter_play_song:
-      - custom: "Check this video"
+      - custom:
             payload: audio
             src: "https://aac.saavncdn.com/907/68fb60671b515580ff60f813d7170d2b_96.mp4"
     ```
