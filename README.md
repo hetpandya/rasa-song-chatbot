@@ -3,7 +3,7 @@
 Original UI credits: [https://github.com/JiteshGaikwad/Chatbot-Widget](https://github.com/JiteshGaikwad/Chatbot-Widget).
 I've modified the UI and added support for audio.
 
-Read the response format for audio in the docs [here](https://github.com/thehetpandya/rasa-song-chatbot/blob/master/docs/responses.md#audio)
+You can find the response format for audio in the docs [here](https://github.com/thehetpandya/rasa-song-chatbot/blob/master/docs/responses.md#audio)
 
 Searches for your favourite song from [Soundcloud](https://soundcloud.com) and [Jiosaavn](https://jiosaavn.com) and plays it.
 
