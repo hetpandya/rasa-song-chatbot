@@ -47,4 +47,4 @@ Then go this url
 http://localhost:8000
 
 ### Screenshot
-![Screenshot](https://github.com/thehetpandya/rasa-song-chatbot/blob/master/images/screenshot.png?raw=true)
+![Screenshot](https://github.com/thehetpandya/rasa-song-chatbot/blob/master/images/screenshot.PNG?raw=true)
