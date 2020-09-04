@@ -1,6 +1,7 @@
 # RASA Song Chatbot
 
-UI credits: [https://github.com/JiteshGaikwad/Chatbot-Widget](https://github.com/JiteshGaikwad/Chatbot-Widget).
+Original UI credits: [https://github.com/JiteshGaikwad/Chatbot-Widget](https://github.com/JiteshGaikwad/Chatbot-Widget).
+I've modified the UI and added support for audio
 
 Searches for your favourite song from [Soundcloud](https://soundcloud.com) and [Jiosaavn](https://jiosaavn.com) and plays it.
 
