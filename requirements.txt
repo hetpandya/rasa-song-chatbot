@@ -1,0 +1,4 @@
+rasa==1.10.12
+spacy
+pydes
+soundcloud

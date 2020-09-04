@@ -1,0 +1,30 @@
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+- name: SpacyNLP
+  model: "en_core_web_md"
+- name: SpacyTokenizer
+- name: CRFEntityExtractor
+- name: SpacyEntityExtractor
+- name: SpacyFeaturizer
+- name: DIETClassifier
+  intent_classification: False
+  entity_recognition: True
+  epochs: 200
+- name: EmbeddingIntentClassifier
+  intent_tokenization_flag: true
+  intent_split_symbol: "+"
+# - name: SklearnIntentClassifier
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: FormPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.4

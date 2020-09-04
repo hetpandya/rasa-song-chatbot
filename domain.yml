@@ -1,0 +1,54 @@
+
+%YAML 1.1
+---
+actions:
+- utter_bot_functions
+- utter_goodbye
+- utter_greet
+# - action_play_song
+- utter_default
+- utter_play_song
+- utter_song_not_found
+- action_play_song
+
+intents:
+- out_of_scope
+- greet
+- goodbye
+- stop
+- bot_functions
+- affirm
+- deny
+- play_song
+
+entities:
+- song_name
+
+slots:
+  song_name:
+    type: text
+
+templates:
+  utter_bot_functions:
+  - text: I can play songs for you
+  - text: I can play music for you.
+  - text: you can ask me to play your favorite song
+  utter_goodbye:
+  - text: Bye
+  - text: Good Bye
+  - text: see you
+  utter_greet:
+  - text: Hi! I am a joke bot
+  - text: Hello! What can I do for you?
+  - text: Hi! What's up?
+  utter_default:
+  - text: I couldn't understant. Can you please repeat what you said?
+  - text: Can you please repeat? I couldn't understand.
+  - text: I'm sorry. I couldn't understand. Please repeat?
+  - text: Uhhh my bad. I couldn't understand. Please repeat?
+  utter_play_song:
+  - text: Here's your song
+  - text: Okay, as you say
+  utter_song_not_found:
+  - text: I coudn't find the song
+  - text: The song isn't available online at the moment
