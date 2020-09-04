@@ -231,5 +231,7 @@
 
 - sending response from custom actions `actions.py` 
     ```
-    dispatcher.utter_custom_json({"payload":'audio',"url":,url})
+    url = 'https://aac.saavncdn.com/907/68fb60671b515580ff60f813d7170d2b_96.mp4'
+    
+    dispatcher.utter_custom_json({"payload":'audio',"url":url})
     ```   
