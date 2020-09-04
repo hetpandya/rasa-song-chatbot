@@ -1,4 +1,4 @@
-# Ras Song Chatbot
+# Rasa Song Chatbot
 
 Original UI credits: [https://github.com/JiteshGaikwad/Chatbot-Widget](https://github.com/JiteshGaikwad/Chatbot-Widget).
 I've modified the UI and added support for audio.
