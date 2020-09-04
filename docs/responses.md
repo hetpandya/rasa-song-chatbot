@@ -218,3 +218,18 @@
 
   dispatcher.utter_message("Sure, please allow me to access your location 🧐",json_message=message)
   ```
+  
+  ## Audio
+- sending response from `domain.yml`
+    ```
+    responses:
+      utter_play_song:
+      - custom: "Check this video"
+            payload: audio
+            src: "https://aac.saavncdn.com/907/68fb60671b515580ff60f813d7170d2b_96.mp4"
+    ```
+
+- sending response from custom actions `actions.py` 
+    ```
+    dispatcher.utter_custom_json({"payload":'audio',"url":,url})
+    ```   
